@@ -42,7 +42,7 @@ public class Ex8 {
                 System.out.println("Insira o valor que deseja sacar: ");
                 double valorSaque;
                 valorSaque = scanner.nextDouble();
-                if (valorSaque < saldo) {
+                if (valorSaque <= saldo) {
                     System.out.println("Você sacou " + valorSaque + " reais");
                     saldo = saldo - valorSaque;
                 } else {
